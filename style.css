@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(233, 246, 249); /* Adjust background color as needed */
+}
+.signup-button{
+    background-color: aliceblue;
+    font-size: 16px;
+}
+.login-button{
+    background-color: #832db1;
+    font-size: 16px;
+}
+.logo {
+    font-weight: bold;
+}
+.logo-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo-image {
+    width: 50px; /* Adjust width as needed */
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav li {
+    /* Styling for navigation links */
+}
+
+.signup-button {
+    /* Styling for the sign up button */
+}
+address {
+    font-style: italic;
+    font-size: 14px;
+    color: #535050;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* Adjust background color as needed */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer nav li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #832db1; /* Adjust link color as needed */
+}
